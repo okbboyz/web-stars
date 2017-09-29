@@ -4,12 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css"/> 
+    <link href="css/font-awesome.min.css" rel="stylesheet"/> 
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <title> Welcome to MiNRG Web Page</title>
 </head>
 <body>
-    <img src="images\stars-night.jpg" alt="my test image" width="500" height="642">
+    <header>
+     <div id="header-inner">
+        <a href="index.html"   id="logo"></a> <!--this brings back to homepage-->
+            <nav>
+                <a href="#" id="menu-icon"></a> <!--this is navigation menu for the mobile version (3 bar icon)-->
+                <ul> <!--unordered list-->
+                    <li><a href="index.html" class="current">Home</a> </li> 
+                    <li><a href="#">Skills</a> </li> 
+                    <li><a href="#">Portfolio</a> </li> 
+                    <li><a href="#">Contact</a> </li>                  
+                
+                </ul>
+            </nav>
+     </div>    
+    </header> 
+<!--End Header-->
+    <section class="banner">
+        <div class="banner-inner">
+                <img src="images\stars-night.jpg" alt="my test image" width="781" height="521">
+        </div> 
+    </section> 
+<!--End Banner-->    
+    <section class="one-fourth" id="html">
+        <td><i class="fa fa-html5"></i>  </td>
+        <h3>HTML</h3> 
+    </section>
+    <section class="one-fourth" id="css">
+            <td><i class="fa fa-css3"></i>  </td>
+            <h3>CSS</h3> 
+        </section>
+    <section class="one-fourth" id="seo"><!--search engine optimization-->
+            <td><i class="fa fa-search"></i>  </td>
+            <h3>SEO</h3> 
+    </section>
+    <section class="one-fourth" id="social">
+        <td><i class="fa fa-users"></i>  </td>
+        <h3>Social</h3> 
+    </section>
+<!--End Four Column Section--> 
+    <section class="inner-wrapper"> <!--the main section, 100% width, will have 2 boxes 50% width each -->
+        <article id="tablet">
+            <img src="img/hand_ipad.png"> <!--png to have transparency-->
+        </article>
+        <aside id="tablet">
+            <h2>MOBILE. TABLET. DESKTOP.</h2>     
+            <P> Filler Text, Blah Blah.
+            </P> 
+        </aside>     
+    </section> 
+    <section class="inner-wrapper-2">
+        <article id="mobile">
+            <h2>ACROSS EACH DEVICE</h2>
+            <p>Random text</p>
+        </article>
+        <aside> 
+            <img src="img/hand_mobile.png"> 
+        </aside>
 
-    Text below the images
+    </section>
+    <section class="inner-wrapper"> <!-- this will have the same css styling as inner-wrapper from first section-->
+            <article id="desktop">
+                    <img src="img/desktop.png"> 
+                
+            </article>
+            <aside="desktop"> 
+                    <p>Random text</p>
+            </aside>
+    
+    </section>
+<!--End of Main Two Column Section-->
+    <section class="inner-wrapper-3">
+        <section class="one-third" id="google">
+            <h3>GOOGLE SEARCH</h3>    
+            <P>Google paragraph description</P>
+        </section>   
+        <section class="one-third" id="marketing">
+                <h3>MARKETING</h3>    
+                <P>Marketing paragraph description</P>
+        </section>  
+        <section class="one-third" id="customers">
+                <h3>HAPPY CUSTOMERS</h3>    
+                <P>Happy customers paragraph description</P>
+        </section>  
+    </section> 
+<!--End Three Column Section-->
+    <section id="smiley">
+        <h2>:)</h2>
+    </section>
+<!--End smiley face-->
+    <footer>
+        <ul class="social">
+            <li><a href="https://www.facebook.com" target="_blank"> <i class="fa fa-facebook"></i> </a></li> <!--target="_blank" opens a newtab instead of navigating current page-->
+            <li><a href="https://www.google.com"><i class="fa fa-google-plus"></i> </a></li>
+            <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+<!--End Footer Section-->
+    <footer class="second"> 
+            <p>&copy; Rocket Design</p>
+
+    </footer>
+<!--End Second Footer-->
+
 
 </body>
 </html>
